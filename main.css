@@ -1,0 +1,26 @@
+table {
+	margin-left: 15px;
+}
+tr {
+	height: 44px;
+}
+.border {
+	border-bottom: 2px solid #dddddd;
+}
+#first {
+	border-bottom: 2px solid #dddddd;
+	border-top: 2px solid #cccccc;
+}
+.item1 {
+	width: 70px;
+	padding-left: 10px;
+}
+.item2 {
+	width: 170px;
+}
+.item3 {
+	width: 190px;
+}
+.item4 {
+	padding-right: 180px;
+}
