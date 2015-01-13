@@ -1,7 +1,7 @@
 table {
 	margin-left: 15px;
 }
-tr {
+.nicer {
 	height: 44px;
 }
 .border {
@@ -52,11 +52,44 @@ tr {
 	text-align: center;
 }
 #bars {
-	width: 100%;
+	width: 95%;
 }
-#bars tr {
+.bars-code {
 	text-align: right;
+	padding-right: 10px;
+	width: 15%;
 }
-#bars td {
-	background-color: ;
+.bars-bar div {
+	background-color: #629edb;
+	color: #ffffff;
+	border-radius: 0px 5px 5px 0px;
+	text-align: left;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 10px;
+}
+#container {
+	background-color: rgba(88, 88, 88, 0.95);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#inner-container {
+	box-sizing: border-box;
+	margin: 14% auto;
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+	overflow: hidden;
+	width: 540px;
+}
+#button {
+	background-color: #ec828a;
+	color: #ffffff;
+	text-decoration: none;
+	float: right;
+	border-radius: 5px;
+	padding: 8px 32px 8px 32px ;
 }
