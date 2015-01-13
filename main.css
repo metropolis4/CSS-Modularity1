@@ -51,3 +51,12 @@ tr {
 .stats {
 	text-align: center;
 }
+#bars {
+	width: 100%;
+}
+#bars tr {
+	text-align: right;
+}
+#bars td {
+	background-color: ;
+}
